@@ -6,6 +6,10 @@
   "repository": "git@github.com:sousaprogramador/ddd-patterns.git",
   "author": "Mateus Sousa <sousa.programador@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "npm run tsc -- --noEmit && jest",
+    "tsc": "tsc"
+  },
   "dependencies": {
     "reflect-metadata": "^0.1.13",
     "sequelize": "^6.33.0",
